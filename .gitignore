@@ -1,0 +1,38 @@
+# Node (Node.js specific)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Docker (Docker specific)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Next.js (Next.js specific)
+.next/
+out/
+
+# Sistema de archivos (OS specific)
+.DS_Store
+Thumbs.db
+
+# Editores (Editor specific)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias (Dependencies)
+package-lock.json
+yarn.lock
+
+# Build (Build output)
+build/
+dist/
+
+# Logs (Logs)
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
