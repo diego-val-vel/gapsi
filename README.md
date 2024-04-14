@@ -1,8 +1,12 @@
 # gapsi
-Repository containing my proposed solution to the exam administered by the company GAPSI
+Repositorio que contiene mi propuesta de solicuón al examen de la compañía GAPSI
 
 ## 0. Descripción
-La aplicación desarrollada que da solución al ejercicio propuesto se basa en un frontend (un formulario) hecho con Angular y Material 17. Para lograr lo anterior se utilizó Docker, quien conteneriza todo este ecosistema basado en Angular. La comunicación con el backend se hace por medio de un service y la creación de un proxy que permite solventar el problema de restricción por CORS que se tiene al llamar a un servicio expuesto en un servidor (en este caso el API de proc-leads) desde un desarrollo o servidor local.
+La aplicación desarrollada que da solución al ejercicio propuesto se basa en un frontend (un formulario) hecho con ReactJS y Material. El backend está desarrollado usando NextJS y maneja las rutas necesarias para solventar el ejercicio.
+
+Para lograr lo anterior se utilizó Docker, quien conteneriza todo este ecosistema basado en NodeJS.
+
+La comunicación con el backend se hace por medio de un service y la configuración de un proxy que permite solventar el problema de restricción por CORS que se tiene al llamar a un servicio expuesto en un servidor (en este caso el API que está en el localhost).
 
 ## 1. Software previo requerido
 Se debe instalar Docker y también Docker Compose, esto depende del sistema operativo que se use. La forma más sencilla de contar con lo anterior es, en Windows y/o Mac, instalando Docker Desktop.
