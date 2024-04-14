@@ -1,5 +1,5 @@
 # gapsi
-Repositorio que contiene mi propuesta de solicuón al examen de la compañía GAPSI
+Repositorio que contiene mi propuesta de solución al examen de la compañía GAPSI
 
 ## 0. Descripción
 La aplicación desarrollada que da solución al ejercicio propuesto se basa en un frontend (un formulario) hecho con ReactJS y Material. El backend está desarrollado usando NextJS y maneja las rutas necesarias para solventar el ejercicio.
