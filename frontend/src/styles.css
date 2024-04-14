@@ -1,0 +1,18 @@
+/* Estilos para el header */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #ffffff; /* Fondo del header */
+    padding: 10px 20px; /* Espaciado interior del header */
+  }
+  
+.logo {
+    height: 50px; /* Tamaño del logo */
+    margin-right: 10px; /* Espacio a la derecha del logo */
+}
+  
+.title {
+    margin: 0;
+    color: #000000; /* Color del texto del título */
+}
