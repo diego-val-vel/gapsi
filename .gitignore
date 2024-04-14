@@ -6,7 +6,6 @@ yarn-debug.log
 
 # Docker (Docker specific)
 Dockerfile
-docker-compose.yml
 .dockerignore
 
 # Next.js (Next.js specific)
