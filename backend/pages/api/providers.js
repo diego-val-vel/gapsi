@@ -6,11 +6,12 @@ export default function handler(req, res) {
   const data = DBHandler.getData();
   const startIndex = (page - 1) * limit;
   const endIndex = page * limit;
+  const total = data.providers.length;
 
-  // Se usa el ResponseFactory para enviar la respuesta
   ResponseFactory.createResponse(res, 'SUCCESS', {
     data: data.providers.slice(startIndex, endIndex),
-    page,
-    limit
+    page: parseInt(page, 10),
+    limit: parseInt(limit, 10),
+    total
   });
 }

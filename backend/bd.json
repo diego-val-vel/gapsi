@@ -31,6 +31,126 @@
       "direccion": "Dirección 4",
       "contacto": "Contacto 4",
       "telefono": "Telefono 4"
+    },
+    {
+      "id": 5,
+      "name": "Proveedor 5",
+      "razonSocial": "Razón Social 5",
+      "direccion": "Dirección 5",
+      "contacto": "Contacto 5",
+      "telefono": "Telefono 5"
+    },
+    {
+      "id": 6,
+      "name": "Proveedor 6",
+      "razonSocial": "Razón Social 6",
+      "direccion": "Dirección 6",
+      "contacto": "Contacto 6",
+      "telefono": "Telefono 6"
+    },
+    {
+      "id": 7,
+      "name": "Proveedor 7",
+      "razonSocial": "Razón Social 7",
+      "direccion": "Dirección 7",
+      "contacto": "Contacto 7",
+      "telefono": "Telefono 7"
+    },
+    {
+      "id": 8,
+      "name": "Proveedor 8",
+      "razonSocial": "Razón Social 8",
+      "direccion": "Dirección 8",
+      "contacto": "Contacto 8",
+      "telefono": "Telefono 8"
+    },
+    {
+      "id": 9,
+      "name": "Proveedor 9",
+      "razonSocial": "Razón Social 9",
+      "direccion": "Dirección 9",
+      "contacto": "Contacto 9",
+      "telefono": "Telefono 9"
+    },
+    {
+      "id": 10,
+      "name": "Proveedor 10",
+      "razonSocial": "Razón Social 10",
+      "direccion": "Dirección 10",
+      "contacto": "Contacto 10",
+      "telefono": "Telefono 10"
+    },
+    {
+      "id": 11,
+      "name": "Proveedor 11",
+      "razonSocial": "Razón Social 11",
+      "direccion": "Dirección 11",
+      "contacto": "Contacto 11",
+      "telefono": "Telefono 11"
+    },
+    {
+      "id": 12,
+      "name": "Proveedor 12",
+      "razonSocial": "Razón Social 12",
+      "direccion": "Dirección 12",
+      "contacto": "Contacto 12",
+      "telefono": "Telefono 12"
+    },
+    {
+      "id": 13,
+      "name": "Proveedor 13",
+      "razonSocial": "Razón Social 13",
+      "direccion": "Dirección 13",
+      "contacto": "Contacto 13",
+      "telefono": "Telefono 13"
+    },
+    {
+      "id": 14,
+      "name": "Proveedor 14",
+      "razonSocial": "Razón Social 14",
+      "direccion": "Dirección 14",
+      "contacto": "Contacto 14",
+      "telefono": "Telefono 14"
+    },
+    {
+      "id": 15,
+      "name": "Proveedor 15",
+      "razonSocial": "Razón Social 15",
+      "direccion": "Dirección 15",
+      "contacto": "Contacto 15",
+      "telefono": "Telefono 15"
+    },
+    {
+      "id": 16,
+      "name": "Proveedor 16",
+      "razonSocial": "Razón Social 16",
+      "direccion": "Dirección 16",
+      "contacto": "Contacto 16",
+      "telefono": "Telefono 16"
+    },
+    {
+      "id": 17,
+      "name": "Proveedor 17",
+      "razonSocial": "Razón Social 17",
+      "direccion": "Dirección 17",
+      "contacto": "Contacto 17",
+      "telefono": "Telefono 17"
+    },
+    {
+      "id": 18,
+      "name": "Proveedor 18",
+      "razonSocial": "Razón Social 18",
+      "direccion": "Dirección 18",
+      "contacto": "Contacto 18",
+      "telefono": "Telefono 18"
+    },
+    {
+      "id": 19,
+      "name": "Proveedor 19",
+      "razonSocial": "Razón Social 19",
+      "direccion": "Dirección 19",
+      "contacto": "Contacto 19",
+      "telefono": "55671959"
     }
   ]
 }

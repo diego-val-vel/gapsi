@@ -1,0 +1,38 @@
+.add-provider-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-provider-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-provider-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-provider-container form .MuiTextField-root {
+  margin-bottom: 15px;
+}
+
+.add-provider-container form .submit-button {
+  margin-top: 15px;
+}
+
+.add-provider-container form .back-link {
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.add-provider-container form .back-link:hover {
+  text-decoration: underline;
+}
