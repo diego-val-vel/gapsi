@@ -50,30 +50,22 @@ Desde la misma terminal, ejecutar el comando que se encargará de ejecutar todo 
 
 ## 4. Evidencias
 
-### 4.1 Logs de inicialización del contenedor
+### 4.1 Welcome page
 
-![1.containerInitLogs](/screenshots/1.containerInitLogs.png)
+![1.Welcome page](/screenshots/1.png)
 
-### 4.2 Accediendo a la aplicación desde localhost
+### 4.2 Lista de proveedores paginada, página 1
 
-![2.appFromLocalHost.png](/screenshots/2.appFromLocalHost.png)
+![2.Lista proveedores pg1.png](/screenshots/2.png)
 
-### 4.3 Formulario válido y con todos los campos llenos
+### 4.3 Lista de proveedores, página 2
 
-![3.validAndFullFilledForm.png](/screenshots/3.validAndFullFilledForm.png)
+![3.Lista proveedores pg2.png](/screenshots/3.png)
 
-### 4.4 Formulario inválido
+### 4.4 Validación, registro duplicado
 
-![4.invalidForm.png](/screenshots/4.invalidForm.png)
+![4.Registro duplicado.png](/screenshots/4.png)
 
-### 4.5 Respuesta inválida desde el backend porque el email ya está registrado
+### 4.5 Respuesta exitosa, alta del proveedor
 
-![5.invalidEmailAlreadyRegistered.png](/screenshots/5.invalidEmailAlreadyRegistered.png)
-
-### 4.6 Respuesta válida desde el backend, lead registrado
-
-![6.validLeadRegistered.png](/screenshots/6.validLeadRegistered.png)
-
-### 4.7 Salidas desde la consola
-
-![7.consoleOutputs.png](/screenshots/7.consoleOutputs.png)
+![5.Alta de proveedor.png](/screenshots/5.png)
