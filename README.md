@@ -50,22 +50,26 @@ Desde la misma terminal, ejecutar el comando que se encargará de ejecutar todo 
 
 ## 4. Evidencias
 
-### 4.1 Welcome page
+### 4.1 Documentación por Postman
 
-![1.Welcome page](/screenshots/1.png)
+![1.Postman doc](/screenshots/1.png)
 
-### 4.2 Lista de proveedores paginada, página 1
+### 4.2 Welcome page
 
-![2.Lista proveedores pg1.png](/screenshots/2.png)
+![2.Welcome page](/screenshots/2.png)
 
-### 4.3 Lista de proveedores, página 2
+### 4.3 Lista de proveedores paginada, página 1
 
-![3.Lista proveedores pg2.png](/screenshots/3.png)
+![3.Lista proveedores pg1.png](/screenshots/3.png)
 
-### 4.4 Validación, registro duplicado
+### 4.4 Lista de proveedores, página 2
 
-![4.Registro duplicado.png](/screenshots/4.png)
+![4.Lista proveedores pg2.png](/screenshots/4.png)
 
-### 4.5 Respuesta exitosa, alta del proveedor
+### 4.5 Validación, registro duplicado
 
-![5.Alta de proveedor.png](/screenshots/5.png)
+![5.Registro duplicado.png](/screenshots/5.png)
+
+### 4.6 Respuesta exitosa, alta del proveedor
+
+![6.Alta de proveedor.png](/screenshots/6.png)

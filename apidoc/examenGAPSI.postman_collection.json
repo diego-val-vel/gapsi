@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "c838cfc5-7ae0-44e5-a96a-a362a4d49068",
+		"name": "examenGAPSI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4416410"
+	},
+	"item": [
+		{
+			"name": "providers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/providers?page=1&limit=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"providers"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				},
+				"description": "Obtiene una lista paginada de proveedores. Se pueden especificar el número de página y el límite de proveedores por página a través de los parámetros de la consulta. Si no se proporcionan, se utilizarán los valores predeterminados."
+			},
+			"response": []
+		},
+		{
+			"name": "welcome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/welcome",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"welcome"
+					]
+				},
+				"description": "Devuelve un mensaje de bienvenida estático junto con la versión actual de la aplicación. Este endpoint no requiere parámetros y se puede usar para verificar si el servicio está en línea."
+			},
+			"response": []
+		},
+		{
+			"name": "provider",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Proveedor 5\",\n    \"razonSocial\": \"Razón Social 5\",\n    \"direccion\": \"Dirección 5\",\n    \"contacto\": \"Contacto 5\",\n    \"telefono\": \"Telefono 5\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"add"
+					]
+				},
+				"description": "Agrega un nuevo proveedor a la lista de proveedores. Requiere un cuerpo de solicitud con los datos del proveedor, como nombre, razón social, dirección, contacto y teléfono. Si el nombre del proveedor ya existe, se devolverá un error indicando que el proveedor está duplicado."
+			},
+			"response": []
+		},
+		{
+			"name": "providerById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"5"
+					]
+				},
+				"description": "Elimina un proveedor específico de la lista basándose en su ID. El ID del proveedor debe ser especificado en la ruta de la URL. Si el proveedor con el ID especificado no se encuentra, se devolverá un error 404."
+			},
+			"response": []
+		}
+	]
+}
