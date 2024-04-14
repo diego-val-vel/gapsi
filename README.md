@@ -8,6 +8,12 @@ Para lograr lo anterior se utilizó Docker, quien conteneriza todo este ecosiste
 
 La comunicación con el backend se hace por medio de un service y la configuración de un proxy que permite solventar el problema de restricción por CORS que se tiene al llamar a un servicio expuesto en un servidor (en este caso el API que está en el localhost).
 
+Finalmente, se explica que se usan dos patrones de diseño en la parte del backend que son el Singleton y el Factory usados en las clases:
+
+- DBHandler. Crea sólo una instancia de la BD (Singleton).
+- ResponseFactory. Crea un objeto de respuesta que devuelve el API (Factory).
+- ProviderFactory. Crea un objeto de proveedor que usa el API (Factory).
+
 ## 1. Software previo requerido
 Se debe instalar Docker y también Docker Compose, esto depende del sistema operativo que se use. La forma más sencilla de contar con lo anterior es instalando Docker Desktop.
 
