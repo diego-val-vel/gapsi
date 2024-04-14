@@ -1,0 +1,36 @@
+{
+  "providers": [
+    {
+      "id": 1,
+      "name": "Proveedor 1",
+      "razonSocial": "Razón Social 1",
+      "direccion": "Dirección 1",
+      "contacto": "Contacto 1",
+      "telefono": "Telefono 1"
+    },
+    {
+      "id": 2,
+      "name": "Proveedor 2",
+      "razonSocial": "Razón Social 2",
+      "direccion": "Dirección 2",
+      "contacto": "Contacto 2",
+      "telefono": "Telefono 2"
+    },
+    {
+      "id": 3,
+      "name": "Proveedor 3",
+      "razonSocial": "Razón Social 3",
+      "direccion": "Dirección 3",
+      "contacto": "Contacto 3",
+      "telefono": "Telefono 3"
+    },
+    {
+      "id": 4,
+      "name": "Proveedor 4",
+      "razonSocial": "Razón Social 4",
+      "direccion": "Dirección 4",
+      "contacto": "Contacto 4",
+      "telefono": "Telefono 4"
+    }
+  ]
+}
